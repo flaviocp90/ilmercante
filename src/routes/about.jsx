@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/about.css";
-import about1 from '../img/about1.jpg';
-import about2 from '../img/about2.JPG';
+import about1 from '../img/about1.JPG';
+import about2 from '../img/about2.jpg';
 import about3 from '../img/about3.JPG';
 
 
