@@ -12,7 +12,7 @@ const HomeIntro = () => {
                 <div className='col-lg-4'>
                     <img className='marketing-img' src={articoliDaRegalo} alt="" width="400"/>
                     <h2>Articoli da regalo</h2>
-                    <p>Il Mercante dei Sogni offre una vasta scelta sia in termini di marche sia in termini di gamma di prodotti. Puoi trovare alcuni tra i marchi più famosi quali Claraluna, Quadrifoglio, Le Fate di Cristallo, ma puoi trovare anche pezzi di antiquariato come statue in osso, articoli in pietra saponaria e in porcellana.</p>
+                    <p>Il Mercante dei Sogni offre una vasta scelta sia in termini di marche sia in termini di gamma di prodotti. Puoi trovare alcuni tra i marchi più famosi quali Claraluna, Quadrifoglio, Le Fate di Cristallo, articoli in pietra saponaria e in porcellana, ma puoi trovare anche pezzi di antiquariato come statue in osso.</p>
                 </div>
                 <div className='col-lg-4'>
                     <img className='marketing-img' src={bomboniere} alt="" width="400" />
@@ -23,7 +23,7 @@ const HomeIntro = () => {
                 <div className='col-lg-4'>
                     <img className='marketing-img' src={confezioni} alt="" width="400" />
                     <h2>Confezioni</h2>
-                    <p>Siamo molto attenti a proporre ai nostri clienti la confezione adatta alle sue esigenze con una vasta scelta di prodotti e soprattutto con la nostra creatività. La confezione, infatti, non è mai standard ma viene creata al momento in base a quelle che sono le richieste dei clienti (quali ad esempio temi o colori particolari scelti per la cerimonia).
+                    <p>Siamo molto attenti a proporre ai nostri clienti la confezione adatta alle loro esigenze con una vasta scelta di prodotti e soprattutto con la nostra creatività. La confezione, infatti, non è mai standard ma viene creata al momento in base a quelle che sono le richieste dei clienti (quali ad esempio temi o colori particolari scelti per la cerimonia).
                     </p>
                 </div>
 
