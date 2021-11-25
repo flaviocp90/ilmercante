@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/home.css'
-import articoliDaRegalo from '../img/head_articoli_da_regalo.jpg';
+import articoliDaRegalo from '../img/head_articoli_da_regalo.JPG';
 import bomboniere from '../img/head_bomboniere.JPG';
 import confezioni from '../img/head_confezioni.JPG';
 
