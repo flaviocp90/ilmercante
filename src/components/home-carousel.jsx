@@ -16,8 +16,6 @@ const HomeCarousel = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad magnam, doloribus molestias aut enim magni minima similique illum veniam, autem, rerum doloremque commodi tenetur necessitatibus quod vero voluptate consequatur ducimus!</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -28,8 +26,6 @@ const HomeCarousel = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius est officiis delectus vero, quam iste aperiam aliquid nemo inventore. Quasi dolores eius suscipit neque hic possimus! Itaque repudiandae nemo expedita.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -40,8 +36,6 @@ const HomeCarousel = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum veritatis voluptatibus quasi, deleniti aliquam iusto omnis ab dolore libero voluptatem expedita non accusamus velit vel sapiente tempore a numquam saepe!</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
