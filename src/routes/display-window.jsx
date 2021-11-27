@@ -33,7 +33,6 @@ const DisplayWindow = () => {
                             <div className='card mb-4 box-shadow'>
                                 <img className='card-img-top' src={vetrina1} alt="" />
                                 <div className='card-body'>
-                                    <h2></h2>
                                     <p></p>
                                 </div>
                             </div>
@@ -43,7 +42,6 @@ const DisplayWindow = () => {
                             <div className='card mb-4 box-shadow'>
                                 <img className='card-img-top' src={vetrina5} alt="" />
                                 <div className='card-body'>
-                                    <h2></h2>
                                     <p></p>
                                 </div>
                             </div>
@@ -53,7 +51,6 @@ const DisplayWindow = () => {
                             <div className='card mb-4 box-shadow'>
                                 <img className='card-img-top' src={vetrina6} alt="" />
                                 <div className='card-body'>
-                                    <h2></h2>
                                     <p></p>
                                 </div>
                             </div>
@@ -66,7 +63,6 @@ const DisplayWindow = () => {
                             <div className='card mb-4 box-shadow'>
                                 <img className='card-img-top' src={vetrina4} alt="" />
                                 <div className='card-body'>
-                                <h2></h2>
                                     <p></p>
                                 </div>
                             </div>
@@ -77,7 +73,6 @@ const DisplayWindow = () => {
                             <div className='card mb-4 box-shadow'>
                                 <img className='card-img-top' src={vetrina2} alt="" />
                                 <div className='card-body'>
-                                <h2></h2>
                                     <p></p>
                                 </div>
                             </div>
@@ -87,7 +82,6 @@ const DisplayWindow = () => {
                             <div className='card mb-4 box-shadow'>
                                 <img className='card-img-top' src={vetrina3} alt="" />
                                 <div className='card-body'>
-                                <h2></h2>
                                     <p></p>
                                 </div>
                             </div>
@@ -101,7 +95,6 @@ const DisplayWindow = () => {
                             <div className='card mb-4 box-shadow'>
                                 <img className='card-img-top' src={vetrina7} alt="" />
                                 <div className='card-body'>
-                                <h2></h2>
                                     <p></p>
                                 </div>
                             </div>
@@ -111,7 +104,6 @@ const DisplayWindow = () => {
                             <div className='card mb-4 box-shadow'>
                                 <img className='card-img-top' src={vetrina8} alt="" />
                                 <div className='card-body'>
-                                <h2></h2>
                                     <p></p>
                                 </div>
                             </div>
@@ -121,7 +113,6 @@ const DisplayWindow = () => {
                             <div className='card mb-4 box-shadow'>
                                 <img className='card-img-top' src={vetrina9} alt="" />
                                 <div className='card-body'>
-                                <h2></h2>
                                     <p></p>
                                 </div>
                             </div>
@@ -132,7 +123,7 @@ const DisplayWindow = () => {
             </div>
             <section className='jumbotron text-center'>
                 <div className='container'>
-                    <h1 className='jumbotron-heading'><a href="https://www.facebook.com/Il-Mercante-dei-Sogni-105897247545388" target='_blank'><BsFacebook/></a> Seguici sulla nostra pagina Facebook</h1>
+                    <h1 className='jumbotron-heading'><a href="https://www.facebook.com/Il-Mercante-dei-Sogni-105897247545388" target='_blank' rel="noopener noreferrer"><BsFacebook/></a> Seguici sulla nostra pagina Facebook</h1>
                 </div>
             </section>
 
