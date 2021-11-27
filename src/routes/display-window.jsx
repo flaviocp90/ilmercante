@@ -1,105 +1,128 @@
 import React from 'react';
 import '../style/display-window.css';
+import { BsFacebook } from 'react-icons/bs';
+import vetrina1 from '../img/IMG_4865.JPG';
+import vetrina2 from '../img/IMG_4878.JPG';
+import vetrina3 from '../img/IMG_4879.JPG';
+import vetrina4 from '../img/IMG_4880.JPG';
+import vetrina5 from '../img/IMG_4885.JPG';
+import vetrina6 from '../img/IMG_4899.JPG';
+import vetrina7 from '../img/IMG_4846.JPG';
+import vetrina8 from '../img/IMG_4852.JPG';
+import vetrina9 from '../img/IMG_4853.JPG';
 
 const DisplayWindow = () => {
     return (
         <main role='main'>
             <section className='jumbotron text-center'>
                 <div className='container'>
-                    <h1 className='jumbotron-heading'>Some title</h1>
-                    <p className='lead text-muted'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi corrupti nostrum sed assumenda vel eaque similique commodi sequi eius voluptatibus, voluptates saepe corporis harum, ad dolorem unde delectus, dignissimos fugiat?</p>
+                    <h1 className='jumbotron-heading'>Scopri alcuni dei nostri fantastici prodotti</h1>
+                    <p className='lead text-muted'>La cura del dettaglio ci contaddistingue</p>
                 </div>
             </section>
+
+            <div className='container-fluid d-flex justify-content-center header-vetrina'> 
+                <h1>Per la tua laurea</h1>
+            </div>
+
 
             <div className='abum py-5 bg-light'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-4'>
                             <div className='card mb-4 box-shadow'>
-                                <img className='card-img-top' src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
+                                <img className='card-img-top' src={vetrina1} alt="" />
                                 <div className='card-body'>
-                                    <h2>Some title 1</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem libero expedita neque dolorem quo incidunt autem eligendi quod. Ipsa aut, asperiores error necessitatibus dignissimos perferendis architecto maiores! Explicabo, odio!</p>
+                                    <h2></h2>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
                         
                         <div className='col-md-4'>
                             <div className='card mb-4 box-shadow'>
-                                <img className='card-img-top' src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
+                                <img className='card-img-top' src={vetrina5} alt="" />
                                 <div className='card-body'>
-                                    <h2>Some title 2</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem libero expedita neque dolorem quo incidunt autem eligendi quod. Ipsa aut, asperiores error necessitatibus dignissimos perferendis architecto maiores! Explicabo, odio!</p>
+                                    <h2></h2>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
 
                         <div className='col-md-4'>
                             <div className='card mb-4 box-shadow'>
-                                <img className='card-img-top' src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
+                                <img className='card-img-top' src={vetrina6} alt="" />
                                 <div className='card-body'>
-                                    <h2>Some title 3</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem libero expedita neque dolorem quo incidunt autem eligendi quod. Ipsa aut, asperiores error necessitatibus dignissimos perferendis architecto maiores! Explicabo, odio!</p>
+                                    <h2></h2>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='container-fluid d-flex justify-content-center header-vetrina'> 
+                <h1>Per il tuo evento speciale</h1>
+            </div>
+                        <div className='col-md-4'>
+                            <div className='card mb-4 box-shadow'>
+                                <img className='card-img-top' src={vetrina4} alt="" />
+                                <div className='card-body'>
+                                <h2></h2>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div className='col-md-4'>
+                            <div className='card mb-4 box-shadow'>
+                                <img className='card-img-top' src={vetrina2} alt="" />
+                                <div className='card-body'>
+                                <h2></h2>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
 
                         <div className='col-md-4'>
                             <div className='card mb-4 box-shadow'>
-                                <img className='card-img-top' src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
+                                <img className='card-img-top' src={vetrina3} alt="" />
                                 <div className='card-body'>
-                                    <h2>Some title 4</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem libero expedita neque dolorem quo incidunt autem eligendi quod. Ipsa aut, asperiores error necessitatibus dignissimos perferendis architecto maiores! Explicabo, odio!</p>
+                                <h2></h2>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='container-fluid d-flex justify-content-center header-vetrina'> 
+                <h1>Per un fantastico regalo</h1>
+            </div>
+
+
+                        <div className='col-md-4'>
+                            <div className='card mb-4 box-shadow'>
+                                <img className='card-img-top' src={vetrina7} alt="" />
+                                <div className='card-body'>
+                                <h2></h2>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
 
                         <div className='col-md-4'>
                             <div className='card mb-4 box-shadow'>
-                                <img className='card-img-top' src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
+                                <img className='card-img-top' src={vetrina8} alt="" />
                                 <div className='card-body'>
-                                    <h2>Some title 5</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem libero expedita neque dolorem quo incidunt autem eligendi quod. Ipsa aut, asperiores error necessitatibus dignissimos perferendis architecto maiores! Explicabo, odio!</p>
+                                <h2></h2>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
 
                         <div className='col-md-4'>
                             <div className='card mb-4 box-shadow'>
-                                <img className='card-img-top' src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
+                                <img className='card-img-top' src={vetrina9} alt="" />
                                 <div className='card-body'>
-                                    <h2>Some title 6</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem libero expedita neque dolorem quo incidunt autem eligendi quod. Ipsa aut, asperiores error necessitatibus dignissimos perferendis architecto maiores! Explicabo, odio!</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='col-md-4'>
-                            <div className='card mb-4 box-shadow'>
-                                <img className='card-img-top' src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
-                                <div className='card-body'>
-                                    <h2>Some title 7</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem libero expedita neque dolorem quo incidunt autem eligendi quod. Ipsa aut, asperiores error necessitatibus dignissimos perferendis architecto maiores! Explicabo, odio!</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='col-md-4'>
-                            <div className='card mb-4 box-shadow'>
-                                <img className='card-img-top' src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
-                                <div className='card-body'>
-                                    <h2>Some title 8</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem libero expedita neque dolorem quo incidunt autem eligendi quod. Ipsa aut, asperiores error necessitatibus dignissimos perferendis architecto maiores! Explicabo, odio!</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='col-md-4'>
-                            <div className='card mb-4 box-shadow'>
-                                <img className='card-img-top' src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
-                                <div className='card-body'>
-                                    <h2>Some title 9</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quidem libero expedita neque dolorem quo incidunt autem eligendi quod. Ipsa aut, asperiores error necessitatibus dignissimos perferendis architecto maiores! Explicabo, odio!</p>
+                                <h2></h2>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -107,6 +130,12 @@ const DisplayWindow = () => {
                     </div>
                 </div>
             </div>
+            <section className='jumbotron text-center'>
+                <div className='container'>
+                    <h1 className='jumbotron-heading'><a href="https://www.facebook.com/Il-Mercante-dei-Sogni-105897247545388" target='_blank'><BsFacebook/></a> Seguici sulla nostra pagina Facebook</h1>
+                </div>
+            </section>
+
 
         </main>
         
