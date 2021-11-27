@@ -1,8 +1,8 @@
 import React from 'react';
 import '../style/home.css'
-import articoliDaRegalo from '../img/head_articoli_da_regalo.JPG';
-import bomboniere from '../img/head_bomboniere.JPG';
-import confezioni from '../img/head_confezioni.JPG';
+import articoliDaRegalo from '../img/IMG_4854.jpg';
+import bomboniere from '../img/IMG_4841.jpg';
+import confezioni from '../img/IMG_4869.jpg';
 
 
 const HomeIntro = () => {
