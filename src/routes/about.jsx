@@ -32,10 +32,10 @@ const About = () => {
       <div className="row featurette">
         <div className="col-md-7 order-md-2">
           <h2 className="featurette-heading">
-            La nostra misson
+            Da noi non trovi solo complementi di arredo...
           </h2>
           <p className="lead">
-            Da noi non trovi solo complementi di arredo ma anche bigiotteria, soprattutto quella realizzata con pietre preziose.
+            Puoi trovare anche bigiotteria, soprattutto quella realizzata con pietre preziose.
           </p>
         </div>
         <div className="col-md-5 order-md-1">
