@@ -38,7 +38,7 @@ const Footer = () => {
         <h6 className="text-uppercase fw-bold mb-4">
             Social
           </h6>
-          <BsFacebook /><a href="https://www.facebook.com/ilmercante.deisogni.7" target="_blank" rel="noopener noreferrer">  Facebook</a>
+          <BsFacebook /><a href="https://www.facebook.com/Il-Mercante-dei-Sogni-105897247545388" target="_blank" rel="noopener noreferrer">  Facebook</a>
         </div>
         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <h6 className="text-uppercase fw-bold mb-4">
